@@ -14,14 +14,14 @@ public class Puppy {
 
 
     public void sleep(){
-        System.out.println("Ruff, night!");
+        System.out.println("What a Ruff night!");
     }
 
 
     public String life(String bark){
         //another public method that has to return the String life method with a String bark argument
 
-        String petLife = "Ruff, ruff " + bark;
+        String petLife = "It's a Ruff, Ruff " + bark;
         return petLife;
     }
 
@@ -31,8 +31,8 @@ public class Puppy {
         currentDistance = currentDistance + distance;
         //Declare a class variable currentDistance in addition to the distance the dog has ran through the integer argument
 
-        System.out.println("Exercising is fun! I ran for " +
-                distance + " miles with my owner!");
+        System.out.println("Exercising is fun! Ruff! I ran for " +
+                distance + " miles with my owner! Ruff!");
         //Concatenated strings and integer distance in the print line
 
         return currentDistance;
